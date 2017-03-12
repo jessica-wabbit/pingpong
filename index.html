@@ -11,14 +11,15 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <h1>Let's Play Ping Pong!</h1>
           <form class="pingpong">
             <div>
               <label for="number">Enter a number:</label>
               <input type="number" min="1" id="pong-number">
             </div>
-            <button type="submit" class="btn btn-warning">Game On!</button>
+            <br>
+            <button type="submit" class="btn btn-warning btn-lg.round">Game On!</button>
           </form>
           <br>
           <div class="result">
@@ -27,18 +28,26 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
+          <br>
+          <p style="text-align:center;"><img src="img/ping-pong.jpeg" alt="ping pong paddle" width="70%"></p>
           <h2>Rules to Play By:</h2>
-          <p><strong>Ping Pong will count up to your number from 1 with the following exceptions:</strong></p>
-          <ul style="list-style: none;">
-            <li>Numbers divisible by 3 are replaced with "ping"</li>
-            <li>Numbers divisible by 5 are replaced with "pong"</li>
-            <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+          <p><strong><em>Ping Pong will count up to your number from 1 with the following exceptions:</em></strong></p>
+          <ul>
+            <li>Numbers divisible by <span class="colorful">3</span> are replaced with <span class="special">"Ping!"</span></li>
+            <li>Numbers divisible by <span class="colorful">5</span> are replaced with <span class="special">"Pong!"</span></li>
+            <li>Numbers divisible by <span class="colorful">15</span> are replaced with <span class="special">"Ping-Pong!"</span></li>
           </ul>
           <h2>Music to Jam to:<h2>
           <div class="video-container">
             <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/-FwV0cNUV4s?rel=0" width="560" height="315"></iframe>
           </div>
+          <h2>About Ping Pong:</h2>
+          <ul>
+            <li><span class="special">Created by:</span> Jessica Robertson</li>
+            <li><span class="special">Github Username/URL:</span>  jessica-wabbit</li>
+            <li><span class="special">Intro to Programming Test for:</span>  Java Script, Arrays and Looping</li>
+          </ul>
         </div>
       </div>
     </div>
